@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Submit Projekt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js"></script>
+    <script src="scripts/network.js"></script>
+
+</head>
+<body>
+
+        
+
+<form name="Form" onsubmit="return validateForm()" >
+    <h2>Submit IT–Project</h2>
+
+    <div class="info">
+        <div class="box">
+            <label>email</label>
+            <input type="text" name="email" id="email">
+            <div class="error" id="emailErr"></div>
+        </div>
+        <div class="box">
+            <label>firstname</label>
+            <input type="text" name="firstname" id="firstname">
+            <div class="error" id="firstnameErr"></div>
+        </div>
+        <div class="box">
+            <label>lastname</label>
+            <input type="text" name="lastname" id="lastname">
+            <div class="error" id="lastnameErr"></div>
+        </div>
+        <div class="box">
+            <label>subject</label>
+            <input type="text" name="subject" id="subject">
+            <div class="error" id="subjectErr"></div>
+        </div>
+        <div class="box">
+            <label>registered</label>
+            <input type="text" name="registered" id="registered">
+            <div class="error" id="registeredErr"></div>
+        </div>
+        <div class="box">
+            <label>description</label>
+            <input type="text" name="description" id="description">
+            <div class="error" id="descriptionErr"></div>
+        </div>
+
+    </div>
+
+    <div class="contact">
+
+        <div class="box">
+            <label>phone</label>
+            <input type="text" name="phone" maxlength="10" id="phone">
+            <div class="error" id="phoneErr"></div>
+        </div>
+        <div class="box">
+            <label>address</label>
+            <input type="text" name="address" id="address">
+            <div class="error" id="addressErr"></div>
+        </div>
+    </div>
+          
+    <div class="box">
+        <input type="submit" value="Submit">
+    </div>
+
+    <h5>powered by Nio und Emanuel</h5>
+</form>
+
+
+</body>
+</html>
